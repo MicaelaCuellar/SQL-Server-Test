@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Biblioteca</title>
+    <!-- Agrega enlaces a tus archivos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gestión de Biblioteca</h1>
+        <!-- Aquí puedes agregar elementos del encabezado, como un menú de navegación -->
+    </header>
+
+    <main>
+        <!-- Aquí irán los elementos principales de tu aplicación, como formularios, tablas, etc. -->
+        <section id="agregar-libro">
+            <h2>Agregar Nuevo Libro</h2>
+            <!-- Formulario para agregar nuevos libros -->
+            <form id="form-agregar-libro">
+                <!-- Aquí van los campos para ingresar información del libro (título, autor, etc.) -->
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <!-- Otros campos del formulario -->
+                <button type="submit">Agregar Libro</button>
+            </form>
+        </section>
+
+        <section id="lista-libros">
+            <h2>Lista de Libros</h2>
+            <!-- Aquí se mostrará la lista de libros existentes -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <!-- Otros encabezados de la tabla -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se llenará dinámicamente la tabla con los libros existentes -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Otras secciones para otras funcionalidades como préstamos, devoluciones, etc. -->
+    </main>
+
+    <footer>
+        <!-- Aquí puedes agregar información adicional o enlaces útiles -->
+        <p>&copy; 2023 Sistema de Gestión de Biblioteca</p>
+    </footer>
+
+    <!-- Agrega enlaces a tus archivos JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
